@@ -1,0 +1,4 @@
+- hosts: localhost
+  tasks:
+  - name: start tomcat
+    service: name=tomcat state=started
